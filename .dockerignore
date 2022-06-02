@@ -1,0 +1,12 @@
+# Project ignores
+.vscode
+
+# Dependency directories
+node_modules/
+dist
+
+# Node Version Manager
+.nvmrc
+
+# NPM
+package-lock.json
