@@ -12,9 +12,8 @@ app.get('/new_page', (req, res) => {
     res.send({text : "It's new page!"});
 })
 
-
-app.get('/new_page/two', (req, res) => {
-    res.send({text : "It's new page!", version: "second"});
+app.get('/new', (req, res) => {
+    res.send({text : "이게 되네..."});
 })
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
